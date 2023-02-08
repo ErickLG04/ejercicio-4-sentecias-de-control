@@ -1,15 +1,8 @@
 public class Main {
     public static void main(String[] args) {
 
-        int numeroWhile = 0;
-
-        int numeroFor = 0;
-
-        int numerolf = 5;
-
-        var estacion = "verano";
-
         //caso if
+        int numerolf = 5;
 
         if (numerolf > 0) {
             System.out.println("numero positivo");
@@ -21,6 +14,8 @@ public class Main {
             System.out.println("es igual a 0 +++");
         }
         // caso while
+        int numeroWhile = 1;
+
         while (numeroWhile<3) {
             System.out.println(numeroWhile);
             numeroWhile++;
@@ -28,18 +23,23 @@ public class Main {
 
         //caso do while
 
+        int numeroDowhile= 1;
+
         do {
-            System.out.println(numeroWhile);
-            numeroWhile++;
-        } while (numeroWhile<3);
+            numeroDowhile++;
+            System.out.println(numeroDowhile);
+
+        } while (numeroDowhile<3);
 
         //caso for
 
-        for (int i = 1; numeroFor<=3; numeroFor++) {
+
+        for ( int numeroFor = 0; numeroFor<=3; numeroFor++) {
             System.out.println(numeroFor);
         }
 
         //caso switch
+        var estacion = "verano";
 
         switch (estacion){
             case "verano":
@@ -54,7 +54,7 @@ public class Main {
                 case "otoño":
                     System.out.println("Es otoño");
                 default :
-                    System.out.println("No es una ninguna estaciones ");
+                    System.out.println("No es una ninguna estacione ");
             }
         }
 
