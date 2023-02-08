@@ -9,6 +9,8 @@ public class Main {
 
         var estacion = "verano";
 
+        //caso if
+
         if (numerolf > 0) {
             System.out.println("numero positivo");
 
@@ -31,9 +33,13 @@ public class Main {
             numeroWhile++;
         } while (numeroWhile<3);
 
+        //caso for
+
         for (int i = 1; numeroFor<=3; numeroFor++) {
             System.out.println(numeroFor);
         }
+
+        //caso switch
 
         switch (estacion){
             case "verano":
